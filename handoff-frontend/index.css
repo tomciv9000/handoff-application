@@ -1,0 +1,26 @@
+#handoff-header {
+    display: flex;
+    justify-content: center;
+    background: #515DA2;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+  }
+  
+  #handoff-header img {
+    height: 6rem;
+    width: auto;
+  }
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
