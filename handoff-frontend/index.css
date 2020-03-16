@@ -5,40 +5,56 @@
     opacity: .8;
     height: 7rem;
     padding: 1rem;
-  }
+}
   
-  #handoff-header img {
+#handoff-header img {
     height: 6rem;
     width: auto;
-  }
+}
 
-  #wet-diaper-icon img, #soiled-diaper-icon img {
+#wet-diaper-icon img, #soiled-diaper-icon img {
     height: 3rem;
     width: auto;
     padding: 3px;
-  }
+}
 
+#wet-diaper-icon button {
+    background-color: rgba(255, 255, 0, 0.568);
+    margin: 5px;
+}
 
+#soiled-diaper-icon button {
+    background-color: rgba(165, 42, 42, 0.383);
+    margin: 5px;
+}
+
+input {
+    margin: .4rem 0;
+    border: black;
+}
+
+#diaper-done {
+    margin: 20px 1px;
+}
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  .item {
-    flex: 0 32%;
-    height: 100px;
+.item {
+    
     margin-bottom: 2%; /* (100-32*3)/2 */
     border-style: solid;
     display: flex;
     justify-content: space-evenly;
-  }
+}
   
-  .item p{
+.item p{
       text-align: center;
       margin-top: 0px;
-  }
+}
 
   .counter {
     background-color: purple;
