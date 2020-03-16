@@ -12,6 +12,13 @@
     width: auto;
   }
 
+  #wet-diaper-icon img, #soiled-diaper-icon img {
+    height: 3rem;
+    width: auto;
+    padding: 3px;
+  }
+
+
 
 .container {
     display: flex;
@@ -23,4 +30,19 @@
     flex: 0 32%;
     height: 100px;
     margin-bottom: 2%; /* (100-32*3)/2 */
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .item p{
+      text-align: center;
+      margin-top: 0px;
+  }
+
+  .counter {
+    background-color: purple;
+    color: white;
+    display: table;
+    padding: 10px;
   }
