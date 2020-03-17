@@ -1,13 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-text{
+    font-size:3vw
+}
+
+#right-image{
+    transform: scaleX(-1);
+}
 #handoff-header {
     display: flex;
     justify-content: center;
-    opacity: .8;
     height: 7rem;
     padding: 1rem;
 }
   
 #handoff-header img {
-    height: 6rem;
+    height: 5rem;
     width: auto;
 }
 
@@ -19,22 +29,74 @@
 
 #wet-diaper-icon button {
     background-color: rgba(255, 255, 0, 0.568);
+    
     margin: 5px;
 }
 
 #soiled-diaper-icon button {
-    background-color: rgba(165, 42, 42, 0.383);
+    background-color: rgba(113, 30, 30, 0.399);
+    
     margin: 5px;
 }
 
 input {
     margin: .4rem 0;
     border: black;
+    outline: black;
 }
 
-#diaper-done {
-    margin: 20px 1px;
+#diaper-done, #food-done {
+    margin: 5px 1px;
 }
+
+#snack-closhe img, #breakfast-closhe img, #lunch-closhe img, #dinner-closhe img {
+    height: 3rem;
+    width: auto;
+    padding: 3px;
+}
+
+#snack-closhe button {
+    background-color: rgba(0, 166, 255, 0.783);
+    
+    margin: 5px;
+}
+
+#breakfast-closhe button {
+    background-color: rgba(255, 153, 0, 0.982);
+    
+    margin: 5px;
+}
+
+#lunch-closhe button {
+    background-color: rgba(0, 255, 145, 0.858);
+    
+    margin: 5px;
+}
+
+#dinner-closhe button {
+    background-color: rgba(98, 0, 255, 0.721);
+    
+    margin: 5px;
+}
+
+#nap-icon img, #bedtime-icon img {
+    height: 3rem;
+    width: auto;
+    padding: 3px;
+}
+
+#nap-icon button {
+    background-color: rgba(245, 92, 209, 0.81);
+    
+    margin: 5px;
+}
+
+#bedtime-icon button {
+    background-color: rgba(92, 135, 245, 0.81);
+    
+    margin: 5px;
+}
+
 
 .container {
     display: flex;
